@@ -1,0 +1,3 @@
+### GET request to process sync data on the queue
+GET http://localhost:5000/process-sync
+###
