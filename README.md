@@ -20,5 +20,5 @@
 - After the processing has been completed the Queue is emptied and deleted, giving space to other incoming data
 
 **Note: In this demo you can choose what local storage you want to use,
-        I recommended using Indexed LocalDB, Same for the sync processing.
+        I recommended using Indexed LocalDB, Same for the sync processing**.
 
