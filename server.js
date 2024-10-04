@@ -54,7 +54,8 @@ app.get('/process-sync', async (req, res) => {
         // we can process the synced data here either save to DB
         // or do something else on the data
         const SYNCED_DATA = items.map(item => JSON.parse(item));
-
+        // after processing all data in the Queue, we now delete the Queue(data)
+        // since it is not longer needed
         await redisClient.del('syncQueue');
 
         return res.status(200).json({ message: 'Sync Queue processed successfully!', syncedData: SYNCED_DATA });
