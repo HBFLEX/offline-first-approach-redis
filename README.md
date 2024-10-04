@@ -3,6 +3,7 @@
 #### HOW TO RUN THE APP
 
 - Install the required modules (*npm install*)
+- Create a .env file (*check the .env.example for data needed*)
 - Run the server first (*npm run server*)
 - Wait until the server is connected to REDIS CLOUD / or your own local redis connection
 - Run the client (*npm run client*)
