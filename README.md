@@ -9,7 +9,7 @@
 - Run the client (*npm run client*)
 
 
-#### HOW TO IT WORKS
+#### HOW IT WORKS
 
 - The client simulates user interaction when the app is offline
 - The activities are stored locally on the client side / Local DB
