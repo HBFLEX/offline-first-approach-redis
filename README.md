@@ -13,7 +13,7 @@
 
 - The client simulates user interaction when the app is offline
 - The activities are stored locally on the client side / Local DB
-- When the app comes back online it sends all the activites / data stored locally to the server
+- When the app comes back online it sends all the activites / data stored locally to the server for syncing
 - The server sends this data to a Queue in redis, thru an endpoint "/sync"
 - The data in the redis Queue is stored and waits for processing
 - Another endpoint "/process-sync" starts processing this data one-by-one in the Queue until all activites are processed
